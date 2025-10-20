@@ -1,47 +1,102 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Javier G. Issa - Data Analyst & Business Intelligence Specialist</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier G. Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Javier G. Issa</h1>
-    <h2>Data Analyst & Business Intelligence Specialist</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">Javier G.</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
     <section id="about">
-      <h3>About Me</h3>
-      <p>Welcome to my portfolio. I’m a data analyst passionate about uncovering insights, optimizing business strategies, and leveraging data-driven intelligence for better decisions. Explore my latest projects and experience below.</p>
+        <h1>About Me</h1>
+        <p>Hello! I'm Javier, a Business Intelligence & Data Analyst professional. I create actionable insights from data to help companies make better decisions. Passionate about technology, analytics, and continuous learning.</p>
     </section>
 
-    <section id="featured">
-      <h3>Featured Projects</h3>
-      <div class="project-gallery">
-        <div class="project-card">
-          <img src="images/sample-project.jpg" alt="Project preview" />
-          <h4>Project Name</h4>
-          <p>Brief description of a highlighted project. Learn how I approached data visualization and insight generation.</p>
-          <a href="project-template.html" class="btn">View Project</a>
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <div class="skills-container">
+            <div class="skill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill"><i class="fas fa-database"></i> SQL</div>
+            <div class="skill"><i class="fas fa-chart-line"></i> Tableau</div>
+            <div class="skill"><i class="fas fa-chart-pie"></i> Power BI</div>
+            <div class="skill"><i class="fas fa-table"></i> Excel</div>
+            <div class="skill"><i class="fas fa-project-diagram"></i> Project Management</div>
+            <div class="skill"><i class="fas fa-chart-area"></i> Data Visualization</div>
         </div>
-      </div>
     </section>
-  </main>
 
-  <footer id="contact">
-    <p>Connect with me:</p>
-    <a href="https://www.linkedin.com/in/javieregi/">LinkedIn</a> |
-    <a href="https://github.com/JavierEGI">GitHub</a> |
-    <a href="mailto:jaibier@outlook.com">Email</a>
-    <p>© 2025 Javier G. Issa</p>
-  </footer>
+    <section id="projects">
+        <h2>Experience / Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Built a personal portfolio to showcase projects and skills using HTML, CSS, and GitHub Pages.</p>
+                <a href="https://javieregi.github.io/JavierGPortfolio/" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Data Analysis Dashboard</h3>
+                <p>Developed a Tableau dashboard for sales analysis in the pharmaceutical sector, providing actionable insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor's Degree in Business Administration</h3>
+            <p>Focus on Business Intelligence</p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications & Courses</h2>
+        <ul class="certifications-list">
+            <li>Certified Information Systems Auditor (CISA) - In Progress</li>
+            <li>Data Analysis with Python – Completed</li>
+            <li>Tableau & Power BI Analytics Courses</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <a href="mailto:jaibier@outlook.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/javieregi/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/JavierEGI" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="JavierG_CV.pdf" download class="download-cv"><i class="fas fa-file-download"></i> Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Javier G. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
