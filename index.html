@@ -1,125 +1,184 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javier G. Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Javier G. Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Javier G.</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<nav>
+<div class="logo">Javier G.</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<div id="language-selector">
+  <button id="lang-button">🌐 Language</button>
+  <div id="lang-dropdown" class="dropdown-content">
+    <div class="lang-option" data-lang="en">🇺🇸 English</div>
+    <div class="lang-option" data-lang="es">🇪🇸 Español</div>
+    <div class="lang-option" data-lang="zh">🇨🇳 中文</div>
+    <div class="lang-option" data-lang="hi">🇮🇳 हिन्दी</div>
+    <div class="lang-option" data-lang="ar">🇸🇦 العربية</div>
+    <div class="lang-option" data-lang="fr">🇫🇷 Français</div>
+    <div class="lang-option" data-lang="ru">🇷🇺 Русский</div>
+    <div class="lang-option" data-lang="pt">🇵🇹 Português</div>
+    <div class="lang-option" data-lang="de">🇩🇪 Deutsch</div>
+    <div class="lang-option" data-lang="ja">🇯🇵 日本語</div>
+  </div>
+</div>
+</header>
 
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Licenciado en Dirección y Gestión Empresarial con mención en Inteligencia de Negocios aspirante a Especialista en Datos y Transformación Digital con gran experiencia variada en las áreas de recursos humanos y tecnología. 
-        Más de 8 años de experiencia combinada en recursos humanos, soporte técnico administrativo, atención al usuario, optimización de flujos de trabajo y gestión de bases de datos. 
-        Destacado por mi habilidad de rápido aprendizaje y capacidades de análisis y resolución de problemas, al igual que por la atención de servicio y colaboración que brindo a la organización. 
-        En constante búsqueda de nuevos conocimientos y enseñanzas, contribuyendo a la modernización y eficiencia de la organización.</p>
-    </section>
+<section id="about">
+<h1>Perfil</h1>
+<p>Licenciado en Dirección y Gestión Empresarial con mención en Inteligencia de Negocios aspirante a Especialista en Datos y Transformación Digital con gran experiencia variada en las áreas de recursos humanos y tecnología...</p>
+</section>
 
-    <section id="skills">
-        <h2>Skills & Tools</h2>
-        <div class="skills-container">
-            <div class="skill">Proficient in English</div>
-            <div class="skill">Good Interpersonal Skills</div>
-            <div class="skill">Data Management & Business Intelligence</div>
-            <div class="skill">Advanced Microsoft Office 365</div>
-            <div class="skill">Document Digitization & File Management</div>
-            <div class="skill">Digital Transformation & e-Government</div>
-            <div class="skill">Workflow Automation</div>
-        </div>
-    </section>
+<section id="skills">
+<h2>Habilidades</h2>
+<div class="skills-container">
+<div class="skill-bar" data-skill="90%">Python</div>
+<div class="skill-bar" data-skill="85%">SQL</div>
+<div class="skill-bar" data-skill="95%">Microsoft Office 365</div>
+<div class="skill-bar" data-skill="80%">Workflow Automation</div>
+</div>
+</section>
 
-    <section id="projects">
-        <h2>Experience</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <h3>Clínica Oftalmológica de Santo Domingo</h3>
-                <p><strong>Asistente de Informática</strong> | Jun 2014 - Sept 2015</p>
-                <ul>
-                    <li>Actualización de base de datos de más de 3000 pacientes.</li>
-                    <li>Identificación y establecimiento de estrategias para maximizar el uso del sistema contable.</li>
-                    <li>Asistencia a usuarios en el manejo correcto del sistema para sus operaciones.</li>
-                </ul>
-            </div>
-            <div class="project-card">
-                <h3>Ministerio de Hacienda</h3>
-                <p><strong>Técnico Administrativo / Soporte Técnico / Especialista en Transformación Digital</strong> | Oct 2016 - Presente</p>
-                <ul>
-                    <li>Instalación y manejo de equipos y módulos dentro del departamento de Crédito Público.</li>
-                    <li>Soporte a personal sin ordenadores para diferentes actividades.</li>
-                    <li>Edición, modificación y reestructuración de los manuales de cargos de la institución.</li>
-                    <li>Digitalización y organización de expedientes de pasantes.</li>
-                    <li>Organización de carpetas de capacitaciones internas y externas.</li>
-                    <li>Actualización de datos personales, formación educativa y experiencias laborales de los empleados.</li>
-                    <li>Apoyo a la Unidad de Análisis Financiera como soporte técnico en el área de tecnología.</li>
-                    <li>Diseño de manual de procedimientos para uso de registros de capacitaciones.</li>
-                    <li>Rediseño de procesos y migración de servicios presenciales a oficinas virtuales.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<section id="projects">
+<h2>Experiencia Profesional</h2>
+<div class="projects-container">
+<div class="project-card">
+<h3>Clínica Oftalmológica de Santo Domingo</h3>
+<p><strong>Asistente de Informática</strong> | Jun 2014 - Sept 2015</p>
+<ul>
+<li>Actualización de base de datos de más de 3000 pacientes.</li>
+<li>Identificación y establecimiento de estrategias para maximizar el uso del sistema contable.</li>
+<li>Asistencia a usuarios en el manejo correcto del sistema para sus operaciones.</li>
+</ul>
+</div>
+<div class="project-card">
+<h3>Ministerio de Hacienda</h3>
+<p><strong>Técnico Administrativo / Soporte Técnico / Especialista en Transformación Digital</strong> | Oct 2016 - Presente</p>
+<ul>
+<li>Instalación y manejo de equipos y módulos dentro del departamento de Crédito Público.</li>
+<li>Soporte a personal sin ordenadores para diferentes actividades.</li>
+<li>Edición, modificación y reestructuración de los manuales de cargos de la institución.</li>
+<li>Digitalización y organización de expedientes de pasantes.</li>
+<li>Organización de carpetas de capacitaciones internas y externas.</li>
+<li>Actualización de datos personales, formación educativa y experiencias laborales de los empleados.</li>
+<li>Apoyo a la Unidad de Análisis Financiera como soporte técnico en el área de tecnología.</li>
+<li>Diseño de manual de procedimientos para uso de registros de capacitaciones.</li>
+<li>Rediseño de procesos y migración de servicios presenciales a oficinas virtuales.</li>
+</ul>
+</div>
+</div>
+</section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>Universidad Iberoamericana</h3>
-            <p>Licenciado en Dirección y Gestión Empresarial (Actual)</p>
-        </div>
-        <div class="education-item">
-            <h3>Saint Thomas School</h3>
-            <p>Grado Bachiller - 2014</p>
-        </div>
-    </section>
+<section id="education">
+<h2>Educación</h2>
+<div class="education-item">
+<h3>Universidad Iberoamericana</h3>
+<p>Licenciado en Dirección y Gestión Empresarial (Actual)</p>
+</div>
+<div class="education-item">
+<h3>Saint Thomas School</h3>
+<p>Grado Bachiller - 2014</p>
+</div>
+</section>
 
-    <section id="certifications">
-        <h2>Certifications & Courses</h2>
-        <ul class="certifications-list">
-            <li>Diplomado en Gestión Estratégica de la Capacitación</li>
-            <li>Curso-Taller ROI de la Capacitación</li>
-            <li>Curso-Taller Diseño e Implementación de Plan de Carrera y Sucesión</li>
-            <li>Redacción de Informes Técnicos</li>
-            <li>Finanzas Personales</li>
-            <li>Servicio al Cliente</li>
-            <li>CompTIA A+</li>
-            <li>Oratoria y Miedo Escénico</li>
-            <li>Help Desk – Manager</li>
-            <li>Manejo Efectivo del Tiempo</li>
-            <li>Modelo de Gestión por Competencias</li>
-            <li>Inteligencia Emocional</li>
-            <li>Power BI</li>
-            <li>Introduction to Data Analytics</li>
-        </ul>
-    </section>
+<section id="certifications">
+<h2>Cursos y Certificaciones</h2>
+<ul class="certifications-list">
+<li>Diplomado en Gestión Estratégica de la Capacitación</li>
+<li>Curso-Taller ROI de la Capacitación</li>
+<li>Curso-Taller Diseño e Implementación de Plan de Carrera y Sucesión</li>
+<li>Redacción de Informes Técnicos</li>
+<li>Finanzas Personales</li>
+<li>Servicio al Cliente</li>
+<li>CompTIA A+</li>
+<li>Oratoria y Miedo Escénico</li>
+<li>Help Desk – Manager</li>
+<li>Manejo Efectivo del Tiempo</li>
+<li>Modelo de Gestión por Competencias</li>
+<li>Inteligencia Emocional</li>
+<li>Power BI</li>
+<li>Introduction to Data Analytics</li>
+</ul>
+</section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-container">
-            <a href="mailto:Jegigonzalez.proton.me">Email: Jegigonzalez.proton.me</a>
-            <a href="tel:+18297602189">Phone: +1(829)-760-2189</a>
-            <a href="https://www.linkedin.com/in/javieregi/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/JavierEGI" target="_blank">GitHub</a>
-            <a href="JavierG_CV.pdf" download class="download-cv">Download CV</a>
-        </div>
-    </section>
+<section id="contact">
+<h2>Contacto</h2>
+<div class="contact-container">
+<a href="mailto:Jegigonzalez.proton.me">Email: Jegigonzalez.proton.me</a>
+<a href="tel:+18297602189">Phone: +1(829)-760-2189</a>
+<a href="https://www.linkedin.com/in/javieregi/" target="_blank">LinkedIn</a>
+<a href="https://github.com/JavierEGI" target="_blank">GitHub</a>
+<a href="JavierG_CV.pdf" download class="download-cv">Descargar CV</a>
+</div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Javier G. All rights reserved.</p>
-    </footer>
+<footer>
+<p>&copy; 2025 Javier G. All rights reserved.</p>
+</footer>
+
+<script>
+// Smooth scroll
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e){
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});
+    });
+});
+
+// Animate skill bars
+const skillBars = document.querySelectorAll('.skill-bar');
+window.addEventListener('scroll', () => {
+    skillBars.forEach(bar => {
+        const rect = bar.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 50){
+            bar.style.width = bar.dataset.skill;
+            bar.style.background = '#0077cc';
+            bar.style.color = '#fff';
+            bar.style.transition = 'width 2s ease-in-out';
+        }
+    });
+});
+
+// Language selector with flags
+const translations = {
+  en: {aboutTitle:"About Me",aboutText:"Business Administration graduate specialized in Business Intelligence...",skillsTitle:"Skills & Tools",projectsTitle:"Experience",educationTitle:"Education",certificationsTitle:"Certifications & Courses",contactTitle:"Contact",downloadCV:"Download CV"},
+  es: {aboutTitle:"Perfil",aboutText:"Licenciado en Dirección y Gestión Empresarial con mención...",skillsTitle:"Habilidades",projectsTitle:"Experiencia Profesional",educationTitle:"Educación",certificationsTitle:"Cursos y Certificaciones",contactTitle:"Contacto",downloadCV:"Descargar CV"},
+  zh:{aboutTitle:"关于我",aboutText:"...",skillsTitle:"技能",projectsTitle:"经验",educationTitle:"教育",certificationsTitle:"认证",contactTitle:"联系",downloadCV:"下载简历"},
+  hi:{aboutTitle:"मेरे बारे में",aboutText:"...",skillsTitle:"कौशल",projectsTitle:"अनुभव",educationTitle:"शिक्षा",certificationsTitle:"प्रमाणपत्र",contactTitle:"संपर्क",downloadCV:"सीवी डाउनलोड करें"},
+  ar:{aboutTitle:"من أنا",aboutText:"...",skillsTitle:"المهارات",projectsTitle:"الخبرة",educationTitle:"التعليم",certificationsTitle:"الشهادات",contactTitle:"اتصال",downloadCV:"تحميل السيرة الذاتية"},
+  fr:{aboutTitle:"À propos",aboutText:"...",skillsTitle:"Compétences",projectsTitle:"Expérience",educationTitle:"Éducation",certificationsTitle:"Certifications",contactTitle:"Contact",downloadCV:"Télécharger CV"},
+  ru:{aboutTitle:"Обо мне",aboutText:"...",skillsTitle:"Навыки",projectsTitle:"Опыт",educationTitle:"Образование",certificationsTitle:"Сертификаты",contactTitle:"Контакт",downloadCV:"Скачать CV"},
+  pt:{aboutTitle:"Sobre Mim",aboutText:"...",skillsTitle:"Habilidades",projectsTitle:"Experiência",educationTitle:"Educação",certificationsTitle:"Certificações",contactTitle:"Contato",downloadCV:"Baixar CV"},
+  de:{aboutTitle:"Über mich",aboutText:"...",skillsTitle:"Fähigkeiten",projectsTitle:"Erfahrung",educationTitle:"Bildung",certificationsTitle:"Zertifikate",contactTitle:"Kontakt",downloadCV:"CV herunterladen"},
+  ja:{aboutTitle:"私について",aboutText:"...",skillsTitle:"スキル",projectsTitle:"経験",educationTitle:"教育",certificationsTitle:"資格",contactTitle:"連絡先",downloadCV:"履歴書をダウンロード"}
+};
+let currentLang='es';
+const elementsToTranslate={aboutTitle:document.querySelector('#about h1'),aboutText:document.querySelector('#about p'),skillsTitle:document.querySelector('#skills h2'),projectsTitle:document.querySelector('#projects h2'),educationTitle:document.querySelector('#education h2'),certificationsTitle:document.querySelector('#certifications h2'),contactTitle:document.querySelector('#contact h2'),downloadCV:document.querySelector('.download-cv')};
+document.querySelectorAll('.lang-option').forEach(option=>{
+  option.addEventListener('click',()=>{
+    const selectedLang=option.getAttribute('data-lang');
+    currentLang=selectedLang;
+    for(let key in elementsToTranslate){
+      if(key==='downloadCV'){elementsToTranslate[key].textContent=translations[selectedLang][key];}
+      else{elementsToTranslate[key].innerText=translations[selectedLang][key];}
+    }
+  });
+});
+</script>
+
 </body>
 </html>
